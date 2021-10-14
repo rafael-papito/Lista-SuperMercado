@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+color: #c0cc12;
+   width: 100%;
+   height: 100px;
+   text-align: center;
+   border-bottom: 8px solid #c0cc12;
+   background-color: #1d26db;
+}
