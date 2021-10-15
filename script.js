@@ -1,5 +1,4 @@
 function lista(){
-
     itens = [];
     var produtos = document.getElementById('produto');
     var preco = document.getElementById('preco');
@@ -22,4 +21,7 @@ function lista(){
         </div>`;
     })
     }
+    produtos.value = "";
+    preco.value = "";
+    var result = document.getElementById('res');
 }
