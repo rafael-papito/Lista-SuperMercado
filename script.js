@@ -25,3 +25,7 @@ function lista(){
     preco.value = "";
     var result = document.getElementById('res');
 }
+function apagar(){
+    var listaProdutos = document.getElementById('cadasSingle');
+    listaProdutos.innerHTML="";
+}
